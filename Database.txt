@@ -1,0 +1,1 @@
+CREATE TABLE `beeline_charts`.`charts_data` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `beeline_value` INT(255) NOT NULL , `mf_value` INT(255) NOT NULL , `mts_value` INT NOT NULL , `time_key` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
